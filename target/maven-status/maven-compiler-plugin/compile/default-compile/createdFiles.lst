@@ -1,0 +1,10 @@
+ru\mera\service\aggregator\RequestsAggregator.class
+ru\mera\entity\Response.class
+ru\mera\service\aggregator\Aggregator.class
+ru\mera\util\LoggingUtil.class
+ru\mera\app\MainClass.class
+ru\mera\domain\WeightIdentifier.class
+ru\mera\service\exception\ServiceNotAvailableException.class
+ru\mera\service\GithubService.class
+ru\mera\entity\Owner.class
+ru\mera\entity\Project.class

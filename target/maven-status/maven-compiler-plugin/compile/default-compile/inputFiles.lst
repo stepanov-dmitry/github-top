@@ -1,0 +1,10 @@
+D:\Development\github-top10\src\main\java\ru\mera\entity\Project.java
+D:\Development\github-top10\src\main\java\ru\mera\service\GithubService.java
+D:\Development\github-top10\src\main\java\ru\mera\entity\Response.java
+D:\Development\github-top10\src\main\java\ru\mera\service\aggregator\RequestsAggregator.java
+D:\Development\github-top10\src\main\java\ru\mera\domain\WeightIdentifier.java
+D:\Development\github-top10\src\main\java\ru\mera\util\LoggingUtil.java
+D:\Development\github-top10\src\main\java\ru\mera\app\MainClass.java
+D:\Development\github-top10\src\main\java\ru\mera\entity\Owner.java
+D:\Development\github-top10\src\main\java\ru\mera\service\aggregator\Aggregator.java
+D:\Development\github-top10\src\main\java\ru\mera\service\exception\ServiceNotAvailableException.java
