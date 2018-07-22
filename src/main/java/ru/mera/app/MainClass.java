@@ -36,7 +36,7 @@ public class MainClass {
             List<Project> projects = aggregator.requestProjects();
             WeightIdentifier identifier = new WeightIdentifier();
             identifier.identifyWeight(projects);
-            List<Project> top10 = identifier.identifyTops(projects);
+            List<Project> top10 = identifier.identifyTop(projects);
             logResults(top10);
 
             long to = System.currentTimeMillis();

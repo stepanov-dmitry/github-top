@@ -44,7 +44,7 @@ public class WeightIdentifier {
                 .forEach(p -> p.setWeight(p.getWeight() - YEAR_FACTOR));
     }
 
-    public List<Project> identifyTops(List<Project> projects) {
+    public List<Project> identifyTop(List<Project> projects) {
         Collections.sort(projects, Comparator.comparingDouble(Project::getWeight).reversed());
         List<Project> top10 = projects.stream().limit(TOP).collect(Collectors.toList());
         return top10;
