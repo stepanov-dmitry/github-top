@@ -11,6 +11,7 @@ package ru.mera.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ru.mera.entity.Project;
 import ru.mera.entity.Response;
+import ru.mera.service.exception.WrongServiceRequest;
 
 import java.io.IOException;
 import java.net.URL;
@@ -29,6 +30,7 @@ public class GithubService {
     }
 
     public List<Project> getProjects(int pageNumber, int perPage) {
+        if (pageNumber < 1 || perPage < 1) throw new WrongServiceRequest();
         try {
             URL url = new URL(REQUEST_URL + PAGE_NUMBER_ATTR + pageNumber + PER_PAGE_ATTR + perPage);
             List<Project> projects = mapper.readValue(url, Response.class).getProjects();

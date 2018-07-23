@@ -5,6 +5,7 @@ D:\Development\workspace\github-top\src\main\java\ru\mera\service\exception\Serv
 D:\Development\workspace\github-top\src\main\java\ru\mera\app\MainClass.java
 D:\Development\workspace\github-top\src\main\java\ru\mera\service\aggregator\ProjectsAggregator.java
 D:\Development\workspace\github-top\src\main\java\ru\mera\entity\Owner.java
+D:\Development\workspace\github-top\src\main\java\ru\mera\service\exception\WrongServiceRequest.java
 D:\Development\workspace\github-top\src\main\java\ru\mera\entity\Project.java
 D:\Development\workspace\github-top\src\main\java\ru\mera\service\GithubService.java
 D:\Development\workspace\github-top\src\main\java\ru\mera\entity\Response.java

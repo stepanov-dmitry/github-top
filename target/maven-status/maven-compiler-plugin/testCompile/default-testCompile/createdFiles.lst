@@ -1,2 +1,3 @@
 ru\mera\domain\WeightIdentifierTest.class
+ru\mera\service\GithubServiceTest.class
 ru\mera\service\RequestsAggregatorTest.class
